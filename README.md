@@ -26,7 +26,8 @@ We used two relays:
 ## Software description
 
 Put flowchats/state diagrams of your algorithm(s) and direct links to source/testbench files in `src` and `sim` folders.
-![image_123650291](https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/assets/147071596/5e0d5323-8bac-4776-8969-6f3ba867e6d7)
+
+![IMG_0177](https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/assets/147071596/195305f4-548c-4806-83e9-3c7ba955a14e)
 
 ![IMG_0176](https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/assets/147071596/338f5181-b60b-4586-b079-5e6e60472b47)
 
@@ -46,13 +47,15 @@ List of design sources:
 
 List of testbenches:
 
-1. [`tb_melody_selector.vhd`](https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/blob/9a9f8162f6d7d15c2d32c0ccf66bdfa4364458fc/source/testbenches/tb_melody_selector.vhd): This is the testbench for the melody_selector.
+1. [`tb_melody_selector.vhd`](https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/blob/9a9f8162f6d7d15c2d32c0ccf66bdfa4364458fc/source/testbenches/tb_melody_selector.vhd): This is the testbench for the melody_selector. As we can see, it counts from 0 to 3 when EN is 1 and it stands in its value when it is 0.
+![image](https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/assets/147071596/f29c14b7-33df-40af-b27a-15c41b11f207)
 
-2. [`tb_ROM.vhd`](https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/blob/9a9f8162f6d7d15c2d32c0ccf66bdfa4364458fc/source/testbenches/tb_ROM.vhd): This is the testbench for the ROM.
+
+3. [`tb_ROM.vhd`](https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/blob/9a9f8162f6d7d15c2d32c0ccf66bdfa4364458fc/source/testbenches/tb_ROM.vhd): This is the testbench for the ROM.
   
-3. [`top.level.vhd`](): This is the main program to run. This program includes all the blocks in it and coordinates them to get the wanted result.
-
 4. [`top.level.vhd`](): This is the main program to run. This program includes all the blocks in it and coordinates them to get the wanted result.
+
+5. [`top.level.vhd`](): This is the main program to run. This program includes all the blocks in it and coordinates them to get the wanted result.
 
 ### Component(s) simulation
 
