@@ -50,12 +50,13 @@ List of testbenches:
 1. [`tb_melody_selector.vhd`](https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/blob/9a9f8162f6d7d15c2d32c0ccf66bdfa4364458fc/source/testbenches/tb_melody_selector.vhd): This is the testbench for the melody_selector. As we can see, it counts from 0 to 3 when EN is 1 and it stands in its value when it is 0.
 ![image](https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/assets/147071596/f29c14b7-33df-40af-b27a-15c41b11f207)
 
-
 3. [`tb_ROM.vhd`](https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/blob/9a9f8162f6d7d15c2d32c0ccf66bdfa4364458fc/source/testbenches/tb_ROM.vhd): This is the testbench for the ROM.
   
 4. [`tb_encoder_A.vhd`](https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/blob/45a454364ca8d41ae2ffea6cb52cb3a33cf7d602/source/testbenches/tb_encoder_A.vhd): This is the main program to run. This program includes all the blocks in it and coordinates them to get the wanted result.
+![image](https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/assets/147071596/2b795c82-ad09-4d81-81d2-875defd2a007)
 
-5. [`top.level.vhd`](): This is the main program to run. This program includes all the blocks in it and coordinates them to get the wanted result.
+
+6. [`top.level.vhd`](): This is the main program to run. This program includes all the blocks in it and coordinates them to get the wanted result.
 
 ### Component(s) simulation
 
@@ -64,6 +65,16 @@ Write descriptive text and put simulation screenshots of your components.
 ## Instructions
 
 Write an instruction manual for your application, including photos and a link to a short app video.
+
+On the one hand, he have a seven segment display which will be showing the track's number. Our application works with four tracks, so the display will show the numbers from 1 to 4. 
+On the other hand, regarding the instructions on how to select the music, three buttons can be used. 
+- BTNC: play/pause
+- BTNL: previous track
+- BTNR: next track
+
+Additionally, we have set some LEDs that tell us the state of the music player.
+- Blue: Music player ON mode
+- Green: Music player OFF mode
 
 ## References
 
