@@ -25,7 +25,10 @@ We used two relays:
 
 ## Software description
 
-Put flowchats/state diagrams of your algorithm(s) and direct links to source/testbench files in `src` and `sim` folders. 
+Put flowchats/state diagrams of your algorithm(s) and direct links to source/testbench files in `src` and `sim` folders.
+![image_123650291](https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/assets/147071596/5e0d5323-8bac-4776-8969-6f3ba867e6d7)
+
+![IMG_0176](https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/assets/147071596/338f5181-b60b-4586-b079-5e6e60472b47)
 
 ### Component(s) simulation
 
