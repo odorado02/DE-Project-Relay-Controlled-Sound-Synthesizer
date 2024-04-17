@@ -15,7 +15,7 @@ Description: Develop and implement a sound synthesizer utilizing relays on the N
 
 Insert descriptive text and schematic(s) of your implementation.
 We used Nexys A7 50T board to solve the problem:
-From the board, we used the seven segment display, and the buttons BTNL, BTNR, BTN
+From the board, we used the seven segment display, and the buttons BTNL, BTNR, BTNC
 ![nexys-a7-artix-50t-xilinx-fpga](https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/assets/147071596/52f406b8-4785-469b-90a5-d3e47c6999ed)
 
 We used two relays:
@@ -53,7 +53,7 @@ List of testbenches:
 
 3. [`tb_ROM.vhd`](https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/blob/9a9f8162f6d7d15c2d32c0ccf66bdfa4364458fc/source/testbenches/tb_ROM.vhd): This is the testbench for the ROM.
   
-4. [`top.level.vhd`](): This is the main program to run. This program includes all the blocks in it and coordinates them to get the wanted result.
+4. [`tb_encoder_A.vhd`](https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/blob/45a454364ca8d41ae2ffea6cb52cb3a33cf7d602/source/testbenches/tb_encoder_A.vhd): This is the main program to run. This program includes all the blocks in it and coordinates them to get the wanted result.
 
 5. [`top.level.vhd`](): This is the main program to run. This program includes all the blocks in it and coordinates them to get the wanted result.
 
