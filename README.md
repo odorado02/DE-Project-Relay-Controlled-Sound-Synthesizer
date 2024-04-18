@@ -29,10 +29,10 @@ We used two relays:
 
 Put flowchats/state diagrams of your algorithm(s) and direct links to source/testbench files in `src` and `sim` folders.
 
-State machine:
+**State machine:**
 ![IMG_0179](https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/assets/147071596/c8e977db-356b-4371-b940-84b205655f34)
 
-List of design sources:
+**List of design sources:**
 
 1. [`top.level.vhd`](): This is the main program to run. This program includes all the blocks in it and coordinates them to get the wanted result.
 ![IMG_0178](https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/assets/147071596/9572ea9e-f6bd-47eb-9fb5-0a7c7338b742)
@@ -48,7 +48,7 @@ List of design sources:
 
 8. [`ROM.vhd`](): This is the memory. Here the melodies are stored in form of binary code.
 
-List of testbenches and simulations:
+**List of testbenches and simulations:**
 
 1. [`tb_melody_selector.vhd`](https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/blob/9a9f8162f6d7d15c2d32c0ccf66bdfa4364458fc/source/testbenches/tb_melody_selector.vhd): This is the testbench for the melody_selector. As we can see, it counts from 0 to 3 when EN is 1 and it stands in its value when it is 0.
 ![image](https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/assets/147071596/f29c14b7-33df-40af-b27a-15c41b11f207)
