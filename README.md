@@ -18,18 +18,17 @@ We developed our synthesizer using the Nexys A7 board. We used the buttons to co
 Insert descriptive text and schematic(s) of your implementation.
 We used Nexys A7 50T board to solve the problem:
 From the board, we used the seven segment display, and the buttons BTNL, BTNR, BTNC, BTND
-![nexys-a7-artix-50t-xilinx-fpga](https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/assets/147071596/52f406b8-4785-469b-90a5-d3e47c6999ed)
+<img src="https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/assets/147071596/52f406b8-4785-469b-90a5-d3e47c6999ed" width="600" height="550">
 
 We used two relays:
 - TIANBO HJR-4102-L-5V
-![rel-01-029-1-hjr-4102-l-12v-relay](https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/assets/147071596/44817505-fdca-4f97-b3d0-d868bf6c868e)
+<img src="https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/assets/147071596/44817505-fdca-4f97-b3d0-d868bf6c868e" width="600" height="550">
 
 - SONGLE SRD-05VDC-SL-C
-![41WWH88N7YL _AC_UF1000,1000_QL80_](https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/assets/147071596/2c1cbcb6-75d4-42c6-aa97-54427649b16d)
-
+<img src="https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/assets/147071596/2c1cbcb6-75d4-42c6-aa97-54427649b16d" width="400" height="350">
 
 As the relays used 5V signal we used a nano Arduino to convert the 3V signal.
-![3023-3_foto-4](https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/assets/147071596/f2cc7264-4fa0-43be-8f0f-e96e4a4349bd)
+<img src="https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/assets/147071596/f2cc7264-4fa0-43be-8f0f-e96e4a4349bd" width="500" height="450">
 
 
 ## Software description
