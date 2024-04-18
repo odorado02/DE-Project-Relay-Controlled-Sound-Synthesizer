@@ -17,7 +17,7 @@ We developed our synthesizer using the Nexys A7 board. We used the buttons to co
 
 Insert descriptive text and schematic(s) of your implementation.
 We used Nexys A7 50T board to solve the problem:
-From the board, we used the seven segment display, and the buttons BTNL, BTNR, BTNC
+From the board, we used the seven segment display, and the buttons BTNL, BTNR, BTNC, BTND
 ![nexys-a7-artix-50t-xilinx-fpga](https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/assets/147071596/52f406b8-4785-469b-90a5-d3e47c6999ed)
 
 We used two relays:
@@ -62,7 +62,7 @@ List of testbenches and simulations:
 Write an instruction manual for your application, including photos and a link to a short app video.
 
 On the one hand, he have a seven segment display which will be showing the track's number. Our application works with four tracks, so the display will show the numbers from 1 to 4. 
-On the other hand, regarding the instructions on how to select the music, three buttons can be used. 
+On the other hand, regarding the instructions on how to select the music, three buttons can be used.
 - BTNC: play/pause
 - BTNL: previous track
 - BTNR: next track
