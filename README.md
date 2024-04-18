@@ -29,9 +29,11 @@ We used two relays:
 
 Put flowchats/state diagrams of your algorithm(s) and direct links to source/testbench files in `src` and `sim` folders.
 
-![IMG_0177](https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/assets/147071596/195305f4-548c-4806-83e9-3c7ba955a14e)
+![IMG_0178](https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/assets/147071596/9572ea9e-f6bd-47eb-9fb5-0a7c7338b742)
 
-![IMG_0176](https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/assets/147071596/338f5181-b60b-4586-b079-5e6e60472b47)
+![IMG_0179](https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/assets/147071596/c8e977db-356b-4371-b940-84b205655f34)
+
+![IMG_0180](https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/assets/147071596/9de00945-24e0-4c20-8b65-0e9814bff2e4)
 
 List of design sources:
 
