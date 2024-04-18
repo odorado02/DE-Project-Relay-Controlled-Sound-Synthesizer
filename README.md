@@ -39,9 +39,9 @@ List of design sources:
 
 4. [`bin2seg.vhd`](https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/blob/9a9f8162f6d7d15c2d32c0ccf66bdfa4364458fc/source/design%20source/bin2seg.vhd): This file is the responsible of controlling the seven segment display of the board.
 
-5. [`encoder_A`](https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/blob/9a9f8162f6d7d15c2d32c0ccf66bdfa4364458fc/source/design%20source/encoder_A.vhd): This block is the 
+5. [`encoder_A.vhd`](https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/blob/9a9f8162f6d7d15c2d32c0ccf66bdfa4364458fc/source/design%20source/encoder_A.vhd): This block is the 
 
-6. [`melody_selector`](https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/blob/9a9f8162f6d7d15c2d32c0ccf66bdfa4364458fc/source/design%20source/melody_selector.vhd): This is basically an up and down counter, that apart from using it in the top_level as an up and down counter we also used it to create a melody selector.
+6. [`melody_selector.vhd`](https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/blob/9a9f8162f6d7d15c2d32c0ccf66bdfa4364458fc/source/design%20source/melody_selector.vhd): This is basically an up and down counter, that apart from using it in the top_level as an up and down counter we also used it to create a melody selector.
 
 7. [`ROM.vhd`](): This is the memory. Here the melodies are stored in form of binary code.
 
