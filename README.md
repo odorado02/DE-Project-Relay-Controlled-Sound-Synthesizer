@@ -23,7 +23,10 @@ From the board, we used the seven segment display, and the buttons BTNL, BTNR, B
 We used two relays:
 - TIANBO HJR-4102-L-5V
 ![rel-01-029-1-hjr-4102-l-12v-relay](https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/assets/147071596/44817505-fdca-4f97-b3d0-d868bf6c868e)
--
+
+- SONGLE SRD-05VDC-SL-C
+![41WWH88N7YL _AC_UF1000,1000_QL80_](https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/assets/147071596/2c1cbcb6-75d4-42c6-aa97-54427649b16d)
+
 
 As the relays used 5V signal we used a nano Arduino to convert the 3V signal.
 ![3023-3_foto-4](https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/assets/147071596/f2cc7264-4fa0-43be-8f0f-e96e4a4349bd)
