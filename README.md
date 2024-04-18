@@ -76,4 +76,7 @@ Additionally, we have set some LEDs that tell us the state of the music player.
 
 ## References
 
+[1]
+“Online VHDL Testbench Template Generator,” vhdl.lapinoo.net. https://vhdl.lapinoo.net/testbench/ (accessed Apr. 18, 2024).
+
 1. Put here all references to sources and tools you used.
