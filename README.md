@@ -2,10 +2,10 @@
 
 ### Team members
 
-* Loan Bresson(diagrams, top.level, melody composition)
-* Emile Cailly(synth, top level)
-* Aitana del Carmen (diagrams)
-* Oier Dorado (up and down counter, top.level, GitHub readme file)
+* Loan Bresson(diagrams, top-level, melody composition)
+* Emile Cailly(synth, top-level)
+* Aitana del Carmen (diagrams, Documentation)
+* Oier Dorado (up and down counter, top-level, GitHub readme file, melodies)
 
 ## Theoretical description and explanation
 
