@@ -56,7 +56,7 @@ Put flowchats/state diagrams of your algorithm(s) and direct links to source/tes
 6. [`melody_selector.vhd`](https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/blob/9a9f8162f6d7d15c2d32c0ccf66bdfa4364458fc/source/design%20source/melody_selector.vhd): This is basically an up and down counter, that apart from using it in the top_level as an up and down counter we also used it to create a melody selector.
 ![IMG_0180](https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/assets/147071596/9de00945-24e0-4c20-8b65-0e9814bff2e4)
 
-8. [`ROM.vhd`](): This is the memory. Here the melodies are stored in form of binary code.
+8. [`ROM.vhd`](https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/blob/e9bc19e9c124f2775d3dacc299e535a5b86264fd/source/design%20source/ROM.vhd): This is the memory. Here the melodies are stored in form of binary code.
 
 **List of testbenches and simulations:**
 
