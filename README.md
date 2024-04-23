@@ -3,7 +3,7 @@
 ### Team members
 
 * Loan Bresson (RTL Shematics, top-level, Melody Maker)
-* Emile Cailly (synth, top-level)
+* Emile Cailly (unary encoder, synth, top-level)
 * Aitana del Carmen (diagrams, documentation)
 * Oier Dorado (up and down counter, ROM, GitHub readme file, melodies)
 
@@ -65,7 +65,7 @@ Put flowchats/state diagrams of your algorithm(s) and direct links to source/tes
 
 3. [`tb_ROM.vhd`](https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/blob/9a9f8162f6d7d15c2d32c0ccf66bdfa4364458fc/source/testbenches/tb_ROM.vhd): This is the testbench for the ROM.
   
-4. [`tb_encoder_A.vhd`](https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/blob/45a454364ca8d41ae2ffea6cb52cb3a33cf7d602/source/testbenches/tb_encoder_A.vhd): This is the main program to run. This program includes all the blocks in it and coordinates them to get the wanted result.
+4. [`tb_encoder_A.vhd`](https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/blob/45a454364ca8d41ae2ffea6cb52cb3a33cf7d602/source/testbenches/tb_encoder_A.vhd): this test bench will go through every number showing the correct urinary output. 
 ![image](https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/assets/147071596/2b795c82-ad09-4d81-81d2-875defd2a007)
 
 
