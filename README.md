@@ -47,13 +47,13 @@ Put flowchats/state diagrams of your algorithm(s) and direct links to source/tes
 1. [`top.level.vhd`](): This is the main program to run. This program includes all the blocks in it and coordinates them to get the wanted result.
 ![IMG_0178](https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/assets/147071596/9572ea9e-f6bd-47eb-9fb5-0a7c7338b742)
 
-3. [`clock_enable.vhd`](https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/blob/9a9f8162f6d7d15c2d32c0ccf66bdfa4364458fc/source/design%20source/clock_enable.vhd): This file initializes the clock signal. We used the one from the laboratory lessons.
+3. [`clock_enable.vhd`](https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/blob/9a9f8162f6d7d15c2d32c0ccf66bdfa4364458fc/source/design%20source/clock_enable.vhd): This file used the clock signal to create a 10Hz pulse. We used the one from the laboratory lessons.
 
 4. [`bin2seg.vhd`](https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/blob/9a9f8162f6d7d15c2d32c0ccf66bdfa4364458fc/source/design%20source/bin2seg.vhd): This file is the responsible of controlling the seven segment display of the board. We used the one from the laboratory lessons.
 
-5. [`encoder_A.vhd`](https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/blob/9a9f8162f6d7d15c2d32c0ccf66bdfa4364458fc/source/design%20source/encoder_A.vhd): This block is the 
+5. [`encoder_A.vhd`](https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/blob/9a9f8162f6d7d15c2d32c0ccf66bdfa4364458fc/source/design%20source/encoder_A.vhd): This block is a unary encoder used in the synth design to convert the number of relais on to actual control signal for the relais. 
 
-6. [`melody_selector.vhd`](https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/blob/9a9f8162f6d7d15c2d32c0ccf66bdfa4364458fc/source/design%20source/melody_selector.vhd): This is basically an up and down counter, that apart from using it in the top_level as an up and down counter we also used it to create a melody selector.
+6. [`melody_selector.vhd`](https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/blob/9a9f8162f6d7d15c2d32c0ccf66bdfa4364458fc/source/design%20source/melody_selector.vhd): This is basically an up and down counter, that apart from using it in the synth design as an up and down counter we also used it to create a melody selector.
 ![IMG_0180](https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/assets/147071596/9de00945-24e0-4c20-8b65-0e9814bff2e4)
 
 8. [`ROM.vhd`](https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/blob/e9bc19e9c124f2775d3dacc299e535a5b86264fd/source/design%20source/ROM.vhd): This is the memory. Here the melodies are stored in form of binary code.
@@ -67,6 +67,26 @@ Put flowchats/state diagrams of your algorithm(s) and direct links to source/tes
   
 4. [`tb_encoder_A.vhd`](https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/blob/45a454364ca8d41ae2ffea6cb52cb3a33cf7d602/source/testbenches/tb_encoder_A.vhd): This is the main program to run. This program includes all the blocks in it and coordinates them to get the wanted result.
 ![image](https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/assets/147071596/2b795c82-ad09-4d81-81d2-875defd2a007)
+
+
+**Synth Function**
+
+as we know, relays do not make the same song when activated and when deactivated we use this to make a design based on sequential activation and deactivation. 3 type of command 
+
+- do nothing          --> silence
+- active un relay     --> first note
+- desactivate a relay --> seconde note
+
+the systeme use up and down compter to count how many relay are up at the same time. converted in 1bit we got the control of eatch of relay.
+
+**limitation**
+
+The intrasec limitation is the fact that we must first make an on note for each of the off notes we want to make. also we since there are only 4 relays of each type we can only make 4 activation notes before having to make a deactivation note.
+
+One of the limitations of our system is that we cannot make an activation and deactivation note at the same time. This could be possible if we used a 1 bit rotary register to control the relay directly but this uses three times more flip-flops than our methode (Register, set pointer, clear pointer) other thing is we can desactivate all the relay at once with a overflow not with other methode. 
+
+the ultimate methode is to control every relay directly from the rom but this use a lot more of memory and is less intresting achitectur. 
+
 
 **Melody composition:**
 
