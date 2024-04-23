@@ -2,10 +2,10 @@
 
 ### Team members
 
-* Loan Bresson (RTL Shematics, top-level, Melody Maker)
-* Emile Cailly (unary encoder, synth, top-level)
-* Aitana del Carmen (diagrams, documentation)
-* Oier Dorado (up and down counter, ROM, GitHub readme file, melodies)
+* Loan Bresson
+* Emile Cailly
+* Aitana del Carmen
+* Oier Dorado
 
 ## Theoretical description and explanation
 
