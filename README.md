@@ -71,29 +71,29 @@ Put flowchats/state diagrams of your algorithm(s) and direct links to source/tes
 
 **Synth Function**
 
-as we know, relays do not make the same song when activated and when deactivated we use this to make a design based on sequential activation and deactivation. 3 type of command 
+As we know, relays do not make the same song when activated and when deactivated. We used this to make a design based on sequential activation and deactivation. 3 type of commands:
 
 - do nothing          --> silence
-- active un relay     --> first note
+- active a relay     --> first note
 - desactivate a relay --> seconde note
 
-the systeme use up and down compter to count how many relay are up at the same time. converted in 1bit we got the control of eatch of relay.
+The system uses up and down counter to count how many relays are up at the same time. Converted in 1bit we got the control of eatch of relay.
 
 **limitation**
 
-The intrasec limitation is the fact that we must first make an on note for each of the off notes we want to make. also we since there are only 4 relays of each type we can only make 4 activation notes before having to make a deactivation note.
+The intrasec limitation is the fact that we must first make an on note for each of the off notes we want to make. Also, since there are only 4 relays of each type, we can only make 4 activation notes before having to make a deactivation note.
 
-One of the limitations of our system is that we cannot make an activation and deactivation note at the same time. This could be possible if we used a 1 bit rotary register to control the relay directly but this uses three times more flip-flops than our methode (Register, set pointer, clear pointer) other thing is we can desactivate all the relay at once with a overflow not with other methode. 
+One of the limitations of our system is that we cannot make an activation and deactivation note at the same time. This could be possible if we use a 1 bit rotary register to control the relay directly but this uses three times more flip-flops than our methode (Register, set pointer, clear pointer) other thing is we can desactivate all the relays at once with an overflow instead of other methods. 
 
-the ultimate methode is to control every relay directly from the rom but this use a lot more of memory and is less intresting achitectur. 
+The ultimate method is to control every relay directly from the ROM but this uses a lot more memory and less intresting achitecture. 
 
 
 **Melody composition:**
 
-To get real melodies on Bitstream format we had to be creative. we made a program simulating the behavior of the of the machine so we can listen to melody without having to compile source every time. we choos to use the Pure Data programing enviroment. 
+To get real melodies on Bitstream format we had to be creative. we made a program simulating the behavior of the machine, so we can listen to the melody without having to compile source every time. We chose to use the Pure Data programing enviroment. 
 <img width="601" alt="Capture d’écran 2024-04-23 à 14 56 51" src="https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/assets/78265905/f9fce24d-96d6-40d0-969b-32830c7059cc">
 
-then we add in this program somme block to programe melodies address by address and converting it to the Array format of VHDL. ``` Array = ("b_02b_01b_00","b_12b_11b_10","b_22b_21b_20") ```
+Then, we added in this program some blocks to programe melodies address by address and converting them into the Array format of VHDL. ``` Array = ("b_02b_01b_00","b_12b_11b_10","b_22b_21b_20") ```
 <img width="862" alt="Capture d’écran 2024-04-23 à 14 54 22" src="https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/assets/78265905/1d3ced82-bc6e-4db9-9188-3d14e44a9a78">
 
 
