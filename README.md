@@ -55,6 +55,8 @@ Since the Relay board use Octocoupler for control it is compatible with 3.3v sig
 
 8. [`ROM.vhd`](https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/blob/e9bc19e9c124f2775d3dacc299e535a5b86264fd/source/design%20source/ROM.vhd): This is the memory. Here the melodies are stored in form of binary code.
 
+9. [`debounce.vhd`](https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/blob/27b937200ac9ea13c7b5a93717b4c95767f21f19/source/design%20source/debounce.vhd): This program avoides the button to bounce.
+
 **List of testbenches and simulations:**
 
 1. [`tb_melody_selector.vhd`](https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/blob/9a9f8162f6d7d15c2d32c0ccf66bdfa4364458fc/source/testbenches/tb_melody_selector.vhd): This is the testbench for the melody_selector. As we can see, it counts from 0 to 3 when EN is 1 and it stands in its value when it is 0.
