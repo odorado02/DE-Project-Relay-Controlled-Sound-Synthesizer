@@ -15,7 +15,6 @@ We developed our synthesizer using the Nexys A7 board. We used the buttons to co
 
 ## Hardware description of demo application
 
-Insert descriptive text and schematic(s) of your implementation.
 We used Nexys A7 50T board to solve the problem:
 From the board, we used the seven segment display, and the buttons BTNL, BTNR, BTNC, BTND
 <img src="https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/assets/147071596/52f406b8-4785-469b-90a5-d3e47c6999ed" width="600" height="550">
