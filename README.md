@@ -97,7 +97,7 @@ Then, we added in this program some blocks to programe melodies address by addre
 ## Instructions
 
 
-On the one hand, he have a seven segment display which will be showing the track's number. Our application works with four tracks, so the display will show the numbers from 1 to 4. 
+On the one hand, we have a seven segment display which will be showing the track's number. Our application works with four tracks, so the display will show the numbers from 1 to 4. 
 On the other hand, regarding the instructions on how to select the music, three buttons can be used.
 - BTNC: play/pause
 - BTNL: previous track
