@@ -36,8 +36,6 @@ Since the Relay board use Octocoupler for control it is compatible with 3.3v sig
 
 ## Software description
 
-Put flowchats/state diagrams of your algorithm(s) and direct links to source/testbench files in `src` and `sim` folders.
-
 **State machine:**
 ![IMG_0179](https://github.com/odorado02/DE-Project-Relay-Controlled-Sound-Synthesizer/assets/147071596/c8e977db-356b-4371-b940-84b205655f34)
 
@@ -98,7 +96,6 @@ Then, we added in this program some blocks to programe melodies address by addre
 
 ## Instructions
 
-Write an instruction manual for your application, including photos and a link to a short app video.
 
 On the one hand, he have a seven segment display which will be showing the track's number. Our application works with four tracks, so the display will show the numbers from 1 to 4. 
 On the other hand, regarding the instructions on how to select the music, three buttons can be used.
